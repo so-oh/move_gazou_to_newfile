@@ -42,10 +42,10 @@ def organize_images(source_folder, destination_folder):
         shutil.move(image_file, destination_path) 
         print(f"{file_name} を {destination_folder} に移動しました。")
 
-# 整理したい画像ファイルが含まれるフォルダのパスを指定
+# 整理したい画像ファイルが含まれるフォルダのパスを指定（''内のパスは手動なのでターミナルでpwdで絶対パスを取得してこよう）
 source_folder = '/Users/kataokaso/desktop/隼人'
 
-# 整理後の画像ファイルを保存するフォルダのパスを指定
+# 整理後の画像ファイルを保存するフォルダのパスを指定（''内のパスは手動なのでターミナルでpwdで絶対パスを取得してこよう）
 destination_folder = '/Users/kataokaso/desktop/隼人/画像お片付け'
 
 # 画像ファイルの整理を実行
